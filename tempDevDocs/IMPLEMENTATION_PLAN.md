@@ -254,8 +254,8 @@
 
 ## N. Definition of Done (release checklist)
 
-* [ ] CLI completes full run; example YAML included.
-* [ ] Final type printed + per‑pair percentages.
+* [x] CLI completes full run; example YAML included.
+* [x] Final type printed + per‑pair percentages.
 * [ ] `--pdf` produces correct landscape report with chart.
 * [ ] Lint/type/test all green in CI; coverage ≥ 90% (core).
 * [ ] README updated; version tagged and released.
