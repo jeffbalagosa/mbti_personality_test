@@ -1,0 +1,24 @@
+# Sample MBTI questionnaire (subset). Expand with more items as needed.
+items:
+  - text: "You feel energized by social gatherings."
+    dimension: "E"
+  - text: "You prefer time alone to recharge."
+    dimension: "I"
+  - text: "You focus on facts and details over ideas."
+    dimension: "S"
+  - text: "You enjoy exploring abstract concepts."
+    dimension: "N"
+  - text: "You prioritize logic when making decisions."
+    dimension: "T"
+  - text: "You consider people and emotions in decisions."
+    dimension: "F"
+  - text: "You like having plans and schedules."
+    dimension: "J"
+  - text: "You prefer flexibility and spontaneity."
+    dimension: "P"
+  - text: "You dislike being the center of attention."
+    dimension: "E"
+    reverse: true
+  - text: "You rarely daydream or imagine future scenarios."
+    dimension: "N"
+    reverse: true

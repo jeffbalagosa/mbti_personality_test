@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mbti-cli"
+version = "0.1.0"
+description = "MBTI Personality Test – Python CLI"
+authors = [{ name = "Your Name" }]
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+  "PyYAML>=6.0",
+]
+
+[project.optional-dependencies]
+report = [
+  "matplotlib>=3.7",
+  "reportlab>=4.0",
+  "pandas>=2.0",
+]
+
+[project.scripts]
+mbti = "mbti_cli.cli:main"
